@@ -1,0 +1,4 @@
+*.rds
+.lintr
+ss/functions_SBDetection.R
+ss/SBDetection_simulation_1.R
