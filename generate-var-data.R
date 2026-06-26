@@ -136,9 +136,9 @@ generate_scenario1 <- function(sigscale = 1, seed = 42L) {
 generate_scenario2 <- function(sigscale = 1, seed = 42L) {
   d <- 2L
   A1 <- matrix(c(0.60, 0.10, 0.10, 0.55), d, d)
-  Sigma1 <- matrix(c(.1, 0, 0, .1), d, d)
+  Sigma1 <- matrix(c(1, 0, 0, 1), d, d)
   A2 <- matrix(c(-0.50, 0.10, 0.10, -0.45), d, d)
-  Sigma2 <- matrix(c(.1, 0, 0, .1), d, d)
+  Sigma2 <- matrix(c(1, 0, 0, 1), d, d)
   generate_var_piecewise(
     n            = 200L,
     break_points = 100L,
